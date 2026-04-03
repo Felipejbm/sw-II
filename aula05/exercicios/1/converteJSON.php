@@ -8,5 +8,5 @@ $produto = [
   
 $jsonProduto = json_encode($produto);
 
-file_put_contents("aula05/exercicios/produtos.json", $jsonProduto)
+file_put_contents("produtos.json", $jsonProduto)
 ?>
